@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>USIU-Africa GPA Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Student GPA Calculator - USIU-Africa</h1>
+
+  <form id="gpa-form">
+    <div id="courses">
+      <!-- Default 3 course rows -->
+      <div class="course-row">
+        <input type="text" placeholder="Course Name" required />
+        <select required>
+          <option value="">Select Grade</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="F">F</option>
+        </select>
+      </div>
+      <div class="course-row">
+        <input type="text" placeholder="Course Name" required />
+        <select required>
+          <option value="">Select Grade</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="F">F</option>
+        </select>
+      </div>
+      <div class="course-row">
+        <input type="text" placeholder="Course Name" required />
+        <select required>
+          <option value="">Select Grade</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="F">F</option>
+        </select>
+      </div>
+    </div>
+
+    <button type="button" id="add-course">Add Another Course</button>
+    <button type="button" id="calculate">Calculate GPA</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
